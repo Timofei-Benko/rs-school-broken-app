@@ -1,5 +1,6 @@
 var express = require('express');
 var app = express();
+require('dotenv').config();
 var db = require('./db');
 var user = require('./controllers/usercontroller');
 var game = require('./controllers/gamecontroller')
